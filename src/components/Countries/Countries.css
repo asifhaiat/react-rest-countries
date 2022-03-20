@@ -1,3 +1,9 @@
 .hello{
     text-shadow: 2px 3px 5px darkslategray;
 }
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
