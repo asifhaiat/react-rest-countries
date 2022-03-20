@@ -17,14 +17,7 @@ const Countries = () => {
                 countries.map(country => console.log(country))
             }
             {
-                countries.map(country => <Country 
-                    name={country.name.common}
-                    capital={country.capital}
-                    official={country.name.official}
-                    population={country.population}
-                    area={country.area}
-                    >
-                    </Country>)
+                countries.map(country => <Country country={country}></Country>)
             }
         </div>
     );
