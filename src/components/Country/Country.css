@@ -1,0 +1,8 @@
+.country{
+    margin: 20px;
+    padding: 15px;
+    background-color: floralwhite;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid lightpink;
+}
